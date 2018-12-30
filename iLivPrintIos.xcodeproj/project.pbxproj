@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C36E9321D8C7E800660AA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36E9221D8C7E800660AA7 /* AppDelegate.swift */; };
+		60C36E9521D8C7E800660AA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36E9421D8C7E800660AA7 /* ViewController.swift */; };
+		60C36E9821D8C7E800660AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C36E9621D8C7E800660AA7 /* Main.storyboard */; };
+		60C36E9A21D8C7EA00660AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C36E9921D8C7EA00660AA7 /* Assets.xcassets */; };
+		60C36E9D21D8C7EA00660AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C36E9B21D8C7EA00660AA7 /* LaunchScreen.storyboard */; };
+		60C36EA821D8C7EA00660AA7 /* iLivPrintIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36EA721D8C7EA00660AA7 /* iLivPrintIosTests.swift */; };
+		60C36EB321D8C7EA00660AA7 /* iLivPrintIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36EB221D8C7EA00660AA7 /* iLivPrintIosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C36EA421D8C7EA00660AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C36E8721D8C7E800660AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C36E8E21D8C7E800660AA7;
+			remoteInfo = iLivPrintIos;
+		};
+		60C36EAF21D8C7EA00660AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C36E8721D8C7E800660AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C36E8E21D8C7E800660AA7;
+			remoteInfo = iLivPrintIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60C36E8F21D8C7E800660AA7 /* iLivPrintIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLivPrintIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C36E9221D8C7E800660AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60C36E9421D8C7E800660AA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60C36E9721D8C7E800660AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C36E9921D8C7EA00660AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C36E9C21D8C7EA00660AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C36E9E21D8C7EA00660AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C36EA321D8C7EA00660AA7 /* iLivPrintIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLivPrintIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C36EA721D8C7EA00660AA7 /* iLivPrintIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLivPrintIosTests.swift; sourceTree = "<group>"; };
+		60C36EA921D8C7EA00660AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C36EAE21D8C7EA00660AA7 /* iLivPrintIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLivPrintIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C36EB221D8C7EA00660AA7 /* iLivPrintIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLivPrintIosUITests.swift; sourceTree = "<group>"; };
+		60C36EB421D8C7EA00660AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C36E8C21D8C7E800660AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C36EA021D8C7EA00660AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C36EAB21D8C7EA00660AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C36E8621D8C7E800660AA7 = {
+			isa = PBXGroup;
+			children = (
+				60C36E9121D8C7E800660AA7 /* iLivPrintIos */,
+				60C36EA621D8C7EA00660AA7 /* iLivPrintIosTests */,
+				60C36EB121D8C7EA00660AA7 /* iLivPrintIosUITests */,
+				60C36E9021D8C7E800660AA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C36E9021D8C7E800660AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C36E8F21D8C7E800660AA7 /* iLivPrintIos.app */,
+				60C36EA321D8C7EA00660AA7 /* iLivPrintIosTests.xctest */,
+				60C36EAE21D8C7EA00660AA7 /* iLivPrintIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C36E9121D8C7E800660AA7 /* iLivPrintIos */ = {
+			isa = PBXGroup;
+			children = (
+				60C36E9221D8C7E800660AA7 /* AppDelegate.swift */,
+				60C36E9421D8C7E800660AA7 /* ViewController.swift */,
+				60C36E9621D8C7E800660AA7 /* Main.storyboard */,
+				60C36E9921D8C7EA00660AA7 /* Assets.xcassets */,
+				60C36E9B21D8C7EA00660AA7 /* LaunchScreen.storyboard */,
+				60C36E9E21D8C7EA00660AA7 /* Info.plist */,
+			);
+			path = iLivPrintIos;
+			sourceTree = "<group>";
+		};
+		60C36EA621D8C7EA00660AA7 /* iLivPrintIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C36EA721D8C7EA00660AA7 /* iLivPrintIosTests.swift */,
+				60C36EA921D8C7EA00660AA7 /* Info.plist */,
+			);
+			path = iLivPrintIosTests;
+			sourceTree = "<group>";
+		};
+		60C36EB121D8C7EA00660AA7 /* iLivPrintIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60C36EB221D8C7EA00660AA7 /* iLivPrintIosUITests.swift */,
+				60C36EB421D8C7EA00660AA7 /* Info.plist */,
+			);
+			path = iLivPrintIosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C36E8E21D8C7E800660AA7 /* iLivPrintIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C36EB721D8C7EA00660AA7 /* Build configuration list for PBXNativeTarget "iLivPrintIos" */;
+			buildPhases = (
+				60C36E8B21D8C7E800660AA7 /* Sources */,
+				60C36E8C21D8C7E800660AA7 /* Frameworks */,
+				60C36E8D21D8C7E800660AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLivPrintIos;
+			productName = iLivPrintIos;
+			productReference = 60C36E8F21D8C7E800660AA7 /* iLivPrintIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60C36EA221D8C7EA00660AA7 /* iLivPrintIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C36EBA21D8C7EA00660AA7 /* Build configuration list for PBXNativeTarget "iLivPrintIosTests" */;
+			buildPhases = (
+				60C36E9F21D8C7EA00660AA7 /* Sources */,
+				60C36EA021D8C7EA00660AA7 /* Frameworks */,
+				60C36EA121D8C7EA00660AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C36EA521D8C7EA00660AA7 /* PBXTargetDependency */,
+			);
+			name = iLivPrintIosTests;
+			productName = iLivPrintIosTests;
+			productReference = 60C36EA321D8C7EA00660AA7 /* iLivPrintIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60C36EAD21D8C7EA00660AA7 /* iLivPrintIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C36EBD21D8C7EA00660AA7 /* Build configuration list for PBXNativeTarget "iLivPrintIosUITests" */;
+			buildPhases = (
+				60C36EAA21D8C7EA00660AA7 /* Sources */,
+				60C36EAB21D8C7EA00660AA7 /* Frameworks */,
+				60C36EAC21D8C7EA00660AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C36EB021D8C7EA00660AA7 /* PBXTargetDependency */,
+			);
+			name = iLivPrintIosUITests;
+			productName = iLivPrintIosUITests;
+			productReference = 60C36EAE21D8C7EA00660AA7 /* iLivPrintIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C36E8721D8C7E800660AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anubhav Malik";
+				TargetAttributes = {
+					60C36E8E21D8C7E800660AA7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					60C36EA221D8C7EA00660AA7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 60C36E8E21D8C7E800660AA7;
+					};
+					60C36EAD21D8C7EA00660AA7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 60C36E8E21D8C7E800660AA7;
+					};
+				};
+			};
+			buildConfigurationList = 60C36E8A21D8C7E800660AA7 /* Build configuration list for PBXProject "iLivPrintIos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C36E8621D8C7E800660AA7;
+			productRefGroup = 60C36E9021D8C7E800660AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C36E8E21D8C7E800660AA7 /* iLivPrintIos */,
+				60C36EA221D8C7EA00660AA7 /* iLivPrintIosTests */,
+				60C36EAD21D8C7EA00660AA7 /* iLivPrintIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C36E8D21D8C7E800660AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C36E9D21D8C7EA00660AA7 /* LaunchScreen.storyboard in Resources */,
+				60C36E9A21D8C7EA00660AA7 /* Assets.xcassets in Resources */,
+				60C36E9821D8C7E800660AA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C36EA121D8C7EA00660AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C36EAC21D8C7EA00660AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C36E8B21D8C7E800660AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C36E9521D8C7E800660AA7 /* ViewController.swift in Sources */,
+				60C36E9321D8C7E800660AA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C36E9F21D8C7EA00660AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C36EA821D8C7EA00660AA7 /* iLivPrintIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C36EAA21D8C7EA00660AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C36EB321D8C7EA00660AA7 /* iLivPrintIosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60C36EA521D8C7EA00660AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C36E8E21D8C7E800660AA7 /* iLivPrintIos */;
+			targetProxy = 60C36EA421D8C7EA00660AA7 /* PBXContainerItemProxy */;
+		};
+		60C36EB021D8C7EA00660AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C36E8E21D8C7E800660AA7 /* iLivPrintIos */;
+			targetProxy = 60C36EAF21D8C7EA00660AA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60C36E9621D8C7E800660AA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C36E9721D8C7E800660AA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C36E9B21D8C7EA00660AA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C36E9C21D8C7EA00660AA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C36EB521D8C7EA00660AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60C36EB621D8C7EA00660AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C36EB821D8C7EA00660AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV3XLPRJ98;
+				INFOPLIST_FILE = iLivPrintIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhavmalikdeveloper.iLivPrintIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60C36EB921D8C7EA00660AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV3XLPRJ98;
+				INFOPLIST_FILE = iLivPrintIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhavmalikdeveloper.iLivPrintIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60C36EBB21D8C7EA00660AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV3XLPRJ98;
+				INFOPLIST_FILE = iLivPrintIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhavmalikdeveloper.iLivPrintIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLivPrintIos.app/iLivPrintIos";
+			};
+			name = Debug;
+		};
+		60C36EBC21D8C7EA00660AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV3XLPRJ98;
+				INFOPLIST_FILE = iLivPrintIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhavmalikdeveloper.iLivPrintIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLivPrintIos.app/iLivPrintIos";
+			};
+			name = Release;
+		};
+		60C36EBE21D8C7EA00660AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV3XLPRJ98;
+				INFOPLIST_FILE = iLivPrintIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhavmalikdeveloper.iLivPrintIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLivPrintIos;
+			};
+			name = Debug;
+		};
+		60C36EBF21D8C7EA00660AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV3XLPRJ98;
+				INFOPLIST_FILE = iLivPrintIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhavmalikdeveloper.iLivPrintIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLivPrintIos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C36E8A21D8C7E800660AA7 /* Build configuration list for PBXProject "iLivPrintIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C36EB521D8C7EA00660AA7 /* Debug */,
+				60C36EB621D8C7EA00660AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C36EB721D8C7EA00660AA7 /* Build configuration list for PBXNativeTarget "iLivPrintIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C36EB821D8C7EA00660AA7 /* Debug */,
+				60C36EB921D8C7EA00660AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C36EBA21D8C7EA00660AA7 /* Build configuration list for PBXNativeTarget "iLivPrintIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C36EBB21D8C7EA00660AA7 /* Debug */,
+				60C36EBC21D8C7EA00660AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C36EBD21D8C7EA00660AA7 /* Build configuration list for PBXNativeTarget "iLivPrintIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C36EBE21D8C7EA00660AA7 /* Debug */,
+				60C36EBF21D8C7EA00660AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C36E8721D8C7E800660AA7 /* Project object */;
+}
