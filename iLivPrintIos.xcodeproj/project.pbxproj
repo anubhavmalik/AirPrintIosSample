@@ -14,6 +14,8 @@
 		60C36E9D21D8C7EA00660AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C36E9B21D8C7EA00660AA7 /* LaunchScreen.storyboard */; };
 		60C36EA821D8C7EA00660AA7 /* iLivPrintIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36EA721D8C7EA00660AA7 /* iLivPrintIosTests.swift */; };
 		60C36EB321D8C7EA00660AA7 /* iLivPrintIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36EB221D8C7EA00660AA7 /* iLivPrintIosUITests.swift */; };
+		60C36EC121D8E21200660AA7 /* DownloadUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36EC021D8E21200660AA7 /* DownloadUtility.swift */; };
+		60C36EC321D8F29700660AA7 /* PrintUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C36EC221D8F29700660AA7 /* PrintUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		60C36EAE21D8C7EA00660AA7 /* iLivPrintIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLivPrintIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C36EB221D8C7EA00660AA7 /* iLivPrintIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLivPrintIosUITests.swift; sourceTree = "<group>"; };
 		60C36EB421D8C7EA00660AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C36EC021D8E21200660AA7 /* DownloadUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadUtility.swift; sourceTree = "<group>"; };
+		60C36EC221D8F29700660AA7 /* PrintUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				60C36E9921D8C7EA00660AA7 /* Assets.xcassets */,
 				60C36E9B21D8C7EA00660AA7 /* LaunchScreen.storyboard */,
 				60C36E9E21D8C7EA00660AA7 /* Info.plist */,
+				60C36EC021D8E21200660AA7 /* DownloadUtility.swift */,
+				60C36EC221D8F29700660AA7 /* PrintUtility.swift */,
 			);
 			path = iLivPrintIos;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C36EC121D8E21200660AA7 /* DownloadUtility.swift in Sources */,
 				60C36E9521D8C7E800660AA7 /* ViewController.swift in Sources */,
+				60C36EC321D8F29700660AA7 /* PrintUtility.swift in Sources */,
 				60C36E9321D8C7E800660AA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
